@@ -31,72 +31,7 @@
 
 1、[Vue3.0 + Vue-Router4.0 + Vuex4.0 + Vant3.0 种子项目搭建过程](https://github.com/Scorpio-li/vue-learning/tree/master/examples/vant-v3)
 
-- vite初始化项目
-
-```shell
-cva vant-v3
-或者
-create-vite-app vant-v3
-```
-
-- vue-router 4.0
-
-```js
-// Vue-Router 3.x
-const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes:  [
-  	// 路由配置不变
-  ]
-})
-
-// Vue-Router 4.0
-const router = createRouter({
-  history: createWebHashHistory(), // hash模式：createWebHashHistory，history模式：createWebHistory
-  routes: [
-    {
-      path: '/',
-      component: Home
-    }
-  ]
-})
-```
-
-```js
-// Vue-Router 3.x
-export default {
-  methods: {
-    goToHome() {
-      this.$router.push('Home')
-    }
-  }
-}
-
-// Vue-Router 4.0
-import { useRouter } from 'vue-router'
-export default {
-  setup() {
-    const router = useRouter()
-    const goToHome = () => router.push('Home')
-    return { goToHome }
-  }
-}
-```
-
-- 移动端rem适配
-    - postcss-pxtorem 是一款postcss插件，用于将单位转换成rem
-    - lib-flexible用于设置rem基准值
-
-```shell
-yarn add lib-flexible -S
-yarn add postcss-pxtorem -D
-```
-
-:::tips
-这里 lib-flexible 是网页做 html 的 font-size 适配用的，所以需要安装到 dependencies。而 postcss-pxtorem 是在编译的时候对 px 单位转换为 rem 单位时使用，所以安装到 devDependencies 便可。
-:::
-
+2、[Vue3.0 + Vite 创建项目及实现暗/亮模式](https://github.com/Scorpio-li/vue-learning/tree/master/examples/vue3-vite)
 
 📖 下面是 `Vue3.0` 及周边相关文档地址：
 
@@ -104,6 +39,8 @@ yarn add postcss-pxtorem -D
 | --------- | ----- |
 | Vue3.0 官方文档 | [在线地址](https://v3.vuejs.org/) |
 | Vue3.0 中文文档 | [在线地址](https://v3.cn.vuejs.org/) [国内加速版](https://vue3js.cn/docs/zh/)|
+| Vite构建器 | [Github](https://github.com/vitejs/vite) |
+| 脚手架vue-cli | [在线地址](https://cli.vuejs.org/zh/) |
 | Composition-API手册 | [在线地址](https://vue3js.cn/vue-composition-api/) |
 | Vue3.0 源码学习 | [在线地址](https://vue3js.cn/start/) |
 | Vue-Router 官方文档 | [在线地址](https://next.router.vuejs.org/) |
