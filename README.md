@@ -29,9 +29,11 @@
 
 ### vue-examples
 
-1、[Vue3.0 + Vue-Router4.0 + Vuex4.0 + Vant3.0 种子项目搭建过程](https://github.com/Scorpio-li/vue-learning/tree/master/examples/vant-v3)
+1、[Vue3.0 + Vue-Router4.0 + Vuex4.0 + Vant3.0 种子项目搭建过程](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vant-v3)
 
-2、[Vue3.0 + Vite 创建项目及实现暗/亮模式](https://github.com/Scorpio-li/vue-learning/tree/master/examples/vue3-vite)
+2、[Vue3.0 + Vite 创建项目及实现暗/亮模式](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vue3-vite)
+
+3、[Vue实现本地上传](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vant-v3/src/views/filr/upload.vue)
 
 📖 下面是 `Vue3.0` 及周边相关文档地址：
 

@@ -1,6 +1,8 @@
 // src/router/index.js
+
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import FileUpload from '../views/file/upload.vue'
 
 // createRouter 创建路由实例
 const router = createRouter({
@@ -8,6 +10,11 @@ const router = createRouter({
     routes: [{
         path: '/',
         component: Home
+    }, {
+        path: '/file/upload',
+        name: 'fileUpload',
+        component: FileUpload
+            // component: resolve => require(['@/views/file/upload'], resolve)
     }]
 })
 
