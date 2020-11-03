@@ -62,9 +62,7 @@ yarn add lib-flexible -S
 yarn add postcss-pxtorem -D
 ```
 
-:::tips
-这里 lib-flexible 是网页做 html 的 font-size 适配用的，所以需要安装到 dependencies。而 postcss-pxtorem 是在编译的时候对 px 单位转换为 rem 单位时使用，所以安装到 devDependencies 便可。
-:::
+> 这里 lib-flexible 是网页做 html 的 font-size 适配用的，所以需要安装到 dependencies。而 postcss-pxtorem 是在编译的时候对 px 单位转换为 rem 单位时使用，所以安装到 devDependencies 便可。
 
 ## 模拟数据
 

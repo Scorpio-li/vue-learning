@@ -35,6 +35,8 @@
 
 3、[Vue实现本地上传](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vant-v3/src/views/filr/upload.vue)
 
+4、[利用vue3+ts实现管理后台（增删改查）](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vue3-ts)
+
 📖 下面是 `Vue3.0` 及周边相关文档地址：
 
 | 相关库名称 | 在线地址 🔗 |
