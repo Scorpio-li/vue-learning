@@ -27,6 +27,12 @@
 
 👀 本人会在仓库内更新一些 `Vue` 相关的学习资料及小Demo，供大家学习和参考。
 
+### vue-knowledge
+
+1、[Vue组件通信](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/communication)
+
+2、[可能会用到的Vue.js库](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/library)
+
 ### vue-examples
 
 1、[Vue3.0 + Vue-Router4.0 + Vuex4.0 + Vant3.0 种子项目搭建过程](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vant-v3)
