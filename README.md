@@ -2,7 +2,7 @@
  * @Author: Li Zhiliang
  * @Date: 2020-10-26 11:26:30
  * @LastEditors: Li Zhiliang
- * @LastEditTime: 2020-10-26 15:20:57
+ * @LastEditTime: 2020-11-20 14:06:34
  * @FilePath: /vue-learning/README.md
 -->
 # vue-learning
@@ -42,6 +42,10 @@
 3、[Vue实现本地上传](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vant-v3/src/views/filr/upload.vue)
 
 4、[利用vue3+ts实现管理后台（增删改查）](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vue3-ts)
+
+### vue-components
+
+1、[Vue header组件](https://github.com/Scorpio-li/vue-learning/tree/main/components-demo/)
 
 📖 下面是 `Vue3.0` 及周边相关文档地址：
 
