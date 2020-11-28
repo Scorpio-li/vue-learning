@@ -33,6 +33,8 @@
 
 2、[可能会用到的Vue.js库](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/library)
 
+3、[Vue 项目一些常见问题的解决方案](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/projectQuestion)
+
 ### vue-examples
 
 1、[Vue3.0 + Vue-Router4.0 + Vuex4.0 + Vant3.0 种子项目搭建过程](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vant-v3)

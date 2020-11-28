@@ -112,7 +112,7 @@ import 'vue2-datepicker/index.css';
 </date-picker>
 ```
 
-## 5.User Ratings（）
+## 5.User Ratings（）评分
 
 首选：vue-star-rating
 
