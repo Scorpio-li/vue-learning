@@ -45,6 +45,8 @@
 
 4、[利用vue3+ts实现管理后台（增删改查）](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vue3-ts)
 
+5、[VueCli创建项目的准备工作](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vue-cli-demo)
+
 ### vue-components
 
 1、[Vue header组件](https://github.com/Scorpio-li/vue-learning/tree/main/components-demo/)
