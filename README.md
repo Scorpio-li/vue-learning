@@ -35,6 +35,8 @@
 
 3、[Vue 项目一些常见问题的解决方案](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/projectQuestion)
 
+4、[Vue 实现前端权限控制](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/accessControl)
+
 ### vue-examples
 
 1、[Vue3.0 + Vue-Router4.0 + Vuex4.0 + Vant3.0 种子项目搭建过程](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vant-v3)
@@ -46,6 +48,8 @@
 4、[利用vue3+ts实现管理后台（增删改查）](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vue3-ts)
 
 5、[VueCli创建项目的准备工作](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vue-cli-demo)
+
+6、[导出excel文件组件](https://github.com/Scorpio-li/vue-learning/tree/main/examples/excel-export)
 
 ### vue-components
 
