@@ -7,6 +7,10 @@ const routes = [{
     path: '/',
     name: 'Example',
     component: resolve => require(['./views/example'], resolve)
+}, {
+    path: '/choose',
+    name: 'ChooseExample',
+    component: resolve => require(['./views/chooseData'], resolve)
 }];
 
 const router = new VueRouter({
