@@ -37,6 +37,8 @@
 
 4、[Vue 实现前端权限控制](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/accessControl)
 
+5、[Vue之keep-alive](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/keepAlive)
+
 ### vue-examples
 
 1、[Vue3.0 + Vue-Router4.0 + Vuex4.0 + Vant3.0 种子项目搭建过程](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vant-v3)
