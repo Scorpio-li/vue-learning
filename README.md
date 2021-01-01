@@ -2,7 +2,7 @@
  * @Author: Li Zhiliang
  * @Date: 2020-10-26 11:26:30
  * @LastEditors: Li Zhiliang
- * @LastEditTime: 2020-12-08 10:54:42
+ * @LastEditTime: 2020-12-31 15:31:13
  * @FilePath: /vue-learning/README.md
 -->
 # vue-learning
@@ -38,6 +38,8 @@
 4、[Vue 实现前端权限控制](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/accessControl)
 
 5、[Vue之keep-alive](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/keepAlive)
+
+6、[Vue在样式中使用data中的变量](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/jsVariable)
 
 ### vue-examples
 
