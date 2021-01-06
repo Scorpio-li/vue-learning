@@ -2,7 +2,7 @@
  * @Author: Li Zhiliang
  * @Date: 2020-10-26 11:26:30
  * @LastEditors: Li Zhiliang
- * @LastEditTime: 2020-12-31 15:31:13
+ * @LastEditTime: 2021-01-06 17:39:55
  * @FilePath: /vue-learning/README.md
 -->
 # vue-learning
@@ -59,9 +59,13 @@
 
 1、[Vue header组件](https://github.com/Scorpio-li/vue-learning/tree/main/components-demo/)
 
+2、[Vue html保存为PDF](https://github.com/Scorpio-li/vue-learning/tree/main/components-demo/src)
+
 ### vue-utils(封装API)
 
 1、[Vue自定义指令](https://github.com/Scorpio-li/vue-learning/tree/main/directives)
+
+2、[实现右键菜单rightClick指令](https://juejin.cn/post/6906788973981466637#heading-18)
 
 📖 下面是 `Vue3.0` 及周边相关文档地址：
 
