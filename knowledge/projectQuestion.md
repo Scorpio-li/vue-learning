@@ -648,3 +648,60 @@ export function rewriteLog() {
 ```
 
 在 main.js 引入这个函数并执行一次，就可以实现忽略 console.log 语句的效果。
+
+## 8. watch经常失效的场景和解决方案
+
+- watch失效的场景：
+
+    1. 对象类型
+    
+    2. 数组项为对象类型的数组
+
+
+### 监听对象失败
+
+因为 obj 是**引用类型**！！！
+
+引用类型的**指针是固定**的，所以如果不是重新赋值，那么其赋值的变量自然也不会发生变化。
+
+```js
+let obj = { a: 1 };
+let obj1 = obj;
+let obj2 = { ...obj };
+obj1.a = 2;
+obj2.a = 3;
+// 这里肯定是true，因为obj和obj1都是同一个指针，不明白的搜下引用类型
+console.log(obj1 === obj);
+// 这里肯定是false，因为指针不同
+console.log(obj2 === obj);
+```
+
+- 解决方案：
+
+设置deep:true，这样obj中的属性发生变化（可被监测到的），便会执行 handler 函数；。
+
+![](https://cdn.jsdelivr.net/gh/Scorpio-li/picture/vue/img/watch-obj.png)
+
+> ！！！注意，因为是引用类型，所以newValue 和oldValue始终相等，千万不要犯傻的写相等就return，那就永远也不往下走了。。。。
+
+### watch的其他属性
+
+- 一开始就需要执行watch的话，可 immediate属性
+
+- handle可以是一个数组
+
+- 取消watch的话，this.$unwatch
+
+- watch对象的某个属性的话，'obj.key'(){}
+
+- 如果想同时检测两个属性，懒得一个个写的话，有个偷懒的法子用computed做中间层。
+
+```js
+computed:{
+  fullName(){return this.firstName + this.lastName}
+},
+watch:{
+  fullName(){...}
+}
+```
+
