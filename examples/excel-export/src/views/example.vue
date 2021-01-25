@@ -1,8 +1,7 @@
 <template>
   <div class="app-container">
     <el-button :loading="downloadLoading" class="filter-item" type="default" @click="handleDownload">
-      导出excel
-	  </el-button>
+      导出excel</el-button>
     <el-table
       v-loading="listLoading"
       :data="list"
@@ -38,44 +37,39 @@
     },
     data() {
       return {
-        list: [
-          {
-          	sn: '测试单号',
-            name: '1',
-            status: 1,
-            amount: '1111',
-            paymentTime: '2020-12-23',
-            remark: '备注测试',
-            creatorName: '创建人'
-        	},
-          {
-          	sn: '测试单号',
-            name: '1',
-            status: 1,
-            amount: '1111',
-            paymentTime: '2020-12-23',
-            remark: '备注测试',
-            creatorName: '创建人'
-        	},
-          {
-          	sn: '测试单号',
-            name: '1',
-            status: 1,
-            amount: '1111',
-            paymentTime: '2020-12-23',
-            remark: '备注测试',
-            creatorName: '创建人'
-        	},
-          {
-          	sn: '测试单号',
-            name: '1',
-            status: 1,
-            amount: '1111',
-            paymentTime: '2020-12-23',
-            remark: '备注测试',
-            creatorName: '创建人'
-        	}   
-        ],
+        list: [{
+          sn: '测试单号',
+          name: '1',
+          status: 1,
+          amount: '1111',
+          paymentTime: '2020-12-23',
+          remark: '备注测试',
+          creatorName: '创建人'
+        }, {
+          sn: '测试单号',
+          name: '1',
+          status: 1,
+          amount: '1111',
+          paymentTime: '2020-12-23',
+          remark: '备注测试',
+          creatorName: '创建人'
+        }, {
+          sn: '测试单号',
+          name: '1',
+          status: 1,
+          amount: '1111',
+          paymentTime: '2020-12-23',
+          remark: '备注测试',
+          creatorName: '创建人'
+        }, {
+          sn: '测试单号',
+          name: '1',
+          status: 1,
+          amount: '1111',
+          paymentTime: '2020-12-23',
+          remark: '备注测试',
+          creatorName: '创建人'
+        }],
         listLoading: false,
         downloadLoading: false,
         statusOptions: paymentStatusMap

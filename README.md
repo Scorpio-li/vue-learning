@@ -59,6 +59,8 @@
 
 7、[Vue3.0模板](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vue3)
 
+8、[Vue动画](https://github.com/Scorpio-li/vue-learning/tree/main/examples/animation)
+
 ### vue-components
 
 1、[Vue header组件](https://github.com/Scorpio-li/vue-learning/tree/main/components-demo/)

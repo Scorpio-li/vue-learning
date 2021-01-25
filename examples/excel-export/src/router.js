@@ -11,6 +11,10 @@ const routes = [{
     path: '/choose',
     name: 'ChooseExample',
     component: resolve => require(['./views/chooseData'], resolve)
+}, {
+    path: '/jsonexcel',
+    name: 'JsonExcel',
+    component: resolve => require(['./views/jsonExcel'], resolve)
 }];
 
 const router = new VueRouter({
