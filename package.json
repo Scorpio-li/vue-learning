@@ -1,5 +1,25 @@
 {
-  "dependencies": {
-    "sass": "^1.28.0"
-  }
+    "name": "vue-learning",
+    "version": "1.0.0",
+    "description": "<!--  * @Author: Li Zhiliang  * @Date: 2020-10-26 11:26:30  * @LastEditors: Li Zhiliang  * @LastEditTime: 2021-01-22 15:39:56  * @FilePath: /vue-learning/README.md --> # vue-learning",
+    "main": "index.js",
+    "directories": {
+        "example": "examples"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Scorpio-li/vue-learning.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Scorpio-li/vue-learning/issues"
+    },
+    "homepage": "https://github.com/Scorpio-li/vue-learning#readme"
 }

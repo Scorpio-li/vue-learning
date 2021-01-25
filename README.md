@@ -2,7 +2,7 @@
  * @Author: Li Zhiliang
  * @Date: 2020-10-26 11:26:30
  * @LastEditors: Li Zhiliang
- * @LastEditTime: 2021-01-06 17:39:55
+ * @LastEditTime: 2021-01-22 15:52:32
  * @FilePath: /vue-learning/README.md
 -->
 # vue-learning
@@ -40,6 +40,8 @@
 5、[Vue之keep-alive](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/keepAlive)
 
 6、[Vue在样式中使用data中的变量](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/jsVariable)
+
+7、[Vue3.0 修改](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/vue3)
 
 ### vue-examples
 
@@ -92,5 +94,23 @@
 | Element-plus(社区版) | [在线地址](https://element3.vercel.app/#/zh-CN) | [在线地址](https://github.com/element-plus/element-plus/issues/171) |
 | Taro(Vue3) | [在线地址](http://taro-docs.jd.com/taro/docs/vue3) | [在线地址](https://github.com/nervjs/taro) |
 
+## [Vue项目](./project)
+
+### 🔥🔥建立项目
+
+#### 1. 使用 vite-app
+
+```shell
+npm init vite-app <project-name>
+```
+
+这里的vite-app是一个新项目，它的官方介绍是一个快速的WEB开发构建工具。这里我们试了一下，整个构建过程十分的快速。和以往的webpack build的方式不一样，它使用了原生ES模块加载。
+
+#### 2. 使用vue-cli
+
+```shell
+npm install -g @vue/cli # OR yarn global add @vue/cli
+vue create <project-name>
+```
 
 
