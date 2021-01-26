@@ -705,3 +705,148 @@ watch:{
 }
 ```
 
+## 9. 分离对全局Vue的拓展
+
+在项目中，我们经常会在全局Vue上做很多拓展，为了项目将来可以更方便的迁移拓展，我们可以做个小小的优化，将项目特有的拓展抽离成一个文件，也方便后期的维护。
+
+```js
+├── main.js
+├── app.js
+```
+
+- main.js
+
+```js
+import Vue from './app.js'
+import router from './router'
+import store from './store'
+import App from './App.Vue'
+
+new Vue({
+  store,
+  router,
+  render: h => h(App)
+}).$mount('#app')
+```
+
+这个main.js里就是最纯粹原始的Vue实例创建创建，当我们需要迁移时，只需要修改Vue的来源。
+
+- app.js
+
+```js
+import Vue from 'vue'
+import http from '@/utils/http'
+import ElementUI from 'element-ui'
+import contentmenu from 'v-contextmenu'
+import 'v-contextmenu/dist/index.css'
+import 'element-ui/lib/theme-chalk/index.css' // 默认主题
+import './assets/css/icon.css'
+
+Vue.config.productionTip = false
+Vue.prototype.$http = http
+
+Vue.use(contentmenu)
+Vue.use(ElementUI, {
+  size: 'small'
+})
+
+export default Vue
+```
+
+## 10. axios的封装
+
+通常项目中，为了做一些请求状态的拦截，我们会对axios再做一层封装，这其中也可以引入例如elemenet的加载组件，给所有的请求做一个过渡状态。
+
+1. 对所有的post请求添加loading动画
+
+2. 针对身份信息错误的情况，清空身份信息，跳转登录界面
+
+3. 针对请求返回错误状态的提示
+
+```js
+├── src                        
+    ├── utils             
+        └── http.js           # 封装axios
+```
+
+- http.js
+
+```js
+import axios from 'axios'
+import { MessageBox, Message, Loading } from 'element-ui'
+import router from '@/router'
+import store from '@/store'
+const http = axios.create({
+  baseURL: '/console',
+  timeout: 10000
+})
+let loading = null
+let waiting = false
+http.interceptors.request.use(
+  config => {
+    if (config.method !== 'get') {
+      loading = Loading.service({ fullscreen: true })
+    }
+    return config
+  },
+  error => {
+    return Promise.reject(error)
+  }
+)
+http.interceptors.response.use(
+  response => {
+    loading && loading.close()
+    return response.data
+  },
+  error => {
+    loading && loading.close()
+    console.log('error', error.message)
+    if (error.message && error.message.indexOf('timeout') > -1) {
+      Message({
+        message: '请求超时',
+        type: 'error',
+        duration: 3 * 1000
+      })
+      return Promise.reject(error)
+    }
+    // 对错误状态码进行处理
+    const { status, data: { message } } = error.response
+    if (status === 401) {
+      if (!waiting) {
+        waiting = true
+        // 登录状态不正确
+        MessageBox.alert('登录状态异常，请重新登录', '确认登录信息', {
+          confirmButtonText: '重新登录',
+          type: 'warning',
+          callback: () => {
+            waiting = false
+            store.commit('clearUserInfo')
+            router.replace({ name: 'login' })
+          }
+        })
+      }
+      return Promise.reject(error)
+    }
+    if (status === 404) {
+      return Promise.reject(error)
+    }
+    Message({
+      message,
+      type: 'error',
+      duration: 3 * 1000
+    })
+    return Promise.reject(error)
+  }
+)
+
+export default http
+```
+
+- app.js
+
+```js
+import Vue from 'vue'
+import http from '@/utils/http'
+
+Vue.prototype.$http = http
+```

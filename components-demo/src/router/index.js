@@ -45,4 +45,24 @@ const router = new Router({
 //     }
 // });
 
+// const constRoutes = [{
+//     path: '/',
+//     name: 'home',
+//     component: Layout,
+//     redirect: '/home/index',
+//     children: [{
+//             path: '/404',
+//             component: () =>
+//                 import ( /* webpackChunkName: "404" */ '@page/error/404.vue'),
+//             meta: { title: '404' }
+//         },
+//         {
+//             path: '/403',
+//             component: () =>
+//                 import ( /* webpackChunkName: "403" */ '@page/error/403.vue'),
+//             meta: { title: '403' }
+//         }
+//     ]
+// }]
+
 export default router;

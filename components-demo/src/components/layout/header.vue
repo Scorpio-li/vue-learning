@@ -4,6 +4,7 @@
  * @LastEditors: Li Zhiliang
  * @LastEditTime: 2020-11-24 21:07:38
  * @FilePath: /vue-learning/components-demo/src/components/layout/header.vue
+ * @Detail: 顶部导航
 -->
 <template>
     <header class="c-header">
