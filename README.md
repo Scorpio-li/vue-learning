@@ -45,6 +45,8 @@
 
 8、[权限控制](https://github.com/Scorpio-li/vue-learning/tree/main/access-control)
 
+9、[Vue架构](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/architecture)
+
 ### vue-examples
 
 1、[Vue3.0 + Vue-Router4.0 + Vuex4.0 + Vant3.0 种子项目搭建过程](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vant-v3)
@@ -72,6 +74,7 @@
 2、[Vue html保存为PDF](https://github.com/Scorpio-li/vue-learning/tree/main/components-demo/src)
 
 3、[全局组件注册](https://github.com/Scorpio-li/vue-learning/tree/main/components-demo/)
+
 ### vue-utils(封装API)
 
 1、[Vue自定义指令](https://github.com/Scorpio-li/vue-learning/tree/main/directives)
