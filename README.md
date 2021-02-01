@@ -47,6 +47,8 @@
 
 9、[Vue架构](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/architecture)
 
+10、[Vue.js 性能优化](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/optimization)
+
 ### vue-examples
 
 1、[Vue3.0 + Vue-Router4.0 + Vuex4.0 + Vant3.0 种子项目搭建过程](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vant-v3)
@@ -80,6 +82,8 @@
 1、[Vue自定义指令](https://github.com/Scorpio-li/vue-learning/tree/main/directives)
 
 2、[实现右键菜单rightClick指令](https://juejin.cn/post/6906788973981466637#heading-18)
+
+3、[vue + intro 实现后台管理系统的新手引导](https://github.com/Scorpio-li/vue-learning/tree/main/directives/intro)
 
 📖 下面是 `Vue3.0` 及周边相关文档地址：
 
