@@ -13,6 +13,9 @@ Vue.use(Router);
 const router = new Router({
     // mode: 'history',
     routes: [{
+            path: '/pdf',
+            component: resolve => require(['@/views/pdf'], resolve),
+        }, {
             path: '/pdf1',
             component: resolve => require(['@/views/PdfPage1'], resolve),
         },

@@ -61,8 +61,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 3. 编写保存函数 文件位置：src/utils/htmlToPdf.js
 
-
-
 ### 2. 调用浏览器window.print()，然后手动保存为PDF。
 
 - 优点

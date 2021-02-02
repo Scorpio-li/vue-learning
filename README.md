@@ -85,6 +85,8 @@
 
 3、[vue + intro 实现后台管理系统的新手引导](https://github.com/Scorpio-li/vue-learning/tree/main/directives/intro)
 
+4、[Vue常用API](https://github.com/Scorpio-li/vue-learning/tree/main/directives/api.md)
+
 📖 下面是 `Vue3.0` 及周边相关文档地址：
 
 | 相关库名称 | 在线地址 🔗 |
