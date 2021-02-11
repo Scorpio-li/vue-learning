@@ -2,7 +2,7 @@
  * @Author: Li Zhiliang
  * @Date: 2020-10-26 11:26:30
  * @LastEditors: Li Zhiliang
- * @LastEditTime: 2021-01-22 15:52:32
+ * @LastEditTime: 2021-02-09 18:28:28
  * @FilePath: /vue-learning/README.md
 -->
 # vue-learning
@@ -55,7 +55,7 @@
 
 2、[Vue3.0 + Vite 创建项目及实现暗/亮模式](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vue3-vite)
 
-3、[Vue实现本地上传](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vant-v3/src/views/filr/upload.vue)
+3、[Vue实现本地上传](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vant-v3/src/views/file/upload.vue)
 
 4、[利用vue3+ts实现管理后台（增删改查）](https://github.com/Scorpio-li/vue-learning/tree/main/examples/vue3-ts)
 
