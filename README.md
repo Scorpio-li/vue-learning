@@ -2,7 +2,7 @@
  * @Author: Li Zhiliang
  * @Date: 2020-10-26 11:26:30
  * @LastEditors: Li Zhiliang
- * @LastEditTime: 2021-02-09 18:28:28
+ * @LastEditTime: 2021-03-05 15:13:37
  * @FilePath: /vue-learning/README.md
 -->
 # vue-learning
@@ -48,6 +48,8 @@
 9、[Vue架构](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/architecture)
 
 10、[Vue.js 性能优化](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/optimization)
+
+11、[Vue详解](https://github.com/Scorpio-li/vue-learning/tree/main/knowledge/explainDetail)
 
 ### vue-examples
 
