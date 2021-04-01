@@ -1,10 +1,3 @@
-<!--
- * @Author: Li Zhiliang
- * @Date: 2020-11-24 18:25:54
- * @LastEditors: Li Zhiliang
- * @LastEditTime: 2020-11-24 21:08:27
- * @FilePath: /vue-learning/components-demo/src/App.vue
--->
 <template>
   <div id="app">
     <!-- <Header />

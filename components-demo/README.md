@@ -2,7 +2,7 @@
  * @Author: Li Zhiliang
  * @Date: 2020-11-24 18:26:07
  * @LastEditors: Li Zhiliang
- * @LastEditTime: 2021-01-06 17:44:00
+ * @LastEditTime: 2021-03-31 11:54:45
  * @FilePath: /vue-learning/components-demo/README.md
 -->
 # components-demo
@@ -842,4 +842,8 @@ export default {
 ```
 
 这里比较关键的一点是，因为我们将会频繁对自选组件进行增删改，预览区域渲染的自选组件和详情操作面板中的内容将会经常变换，所以我们可以使用动态组件 **component** 结合is属性的绑定来实现。
+
+## Excel导入导出
+
+实现Excel的导入导出
 

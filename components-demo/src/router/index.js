@@ -23,6 +23,10 @@ const router = new Router({
             path: '/pdf2',
             component: resolve => require(['@/views/PdfPage2'], resolve),
         },
+        {
+            path: '/excel',
+            component: resolve => require(['@/views/excelView'], resolve),
+        }
     ]
 });
 
